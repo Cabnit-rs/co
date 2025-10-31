@@ -1,0 +1,8 @@
+[package]
+name = "villa-bevy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy.git", features = ["bevy_camera_controller", "free_camera"] }
+
